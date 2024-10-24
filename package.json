@@ -1,0 +1,29 @@
+{
+  "name": "nova",
+  "module": "src/pages/index.tsx",
+  "type": "module",
+  "scripts": {
+    "prepare": "panda codegen --clean",
+    "dev": "brisa dev",
+    "dev:debug": "brisa dev --debug",
+    "build": "brisa build",
+    "start": "brisa start",
+    "fmt:check": "bunx @biomejs/biome check --write ./src"
+  },
+  "dependencies": {
+    "brisa": "0.1.1",
+    "brisa-pandacss": "0.1.1",
+    "microcms-js-sdk": "^3.1.2",
+    "postcss": "8.4.47",
+    "rehype-highlight": "^7.0.0",
+    "rehype-parse": "^9.0.1",
+    "rehype-sanitize": "^6.0.0",
+    "rehype-stringify": "^10.0.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@pandacss/dev": "0.46.1",
+    "@types/bun": "latest",
+    "typescript": "latest"
+  }
+}

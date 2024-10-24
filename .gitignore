@@ -1,0 +1,11 @@
+build
+node_modules
+out
+.vercel
+
+## Panda
+styled-system
+styled-system-studio
+
+# Env
+.env.development.local
